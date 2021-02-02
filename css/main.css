@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway');
+
+body {
+  background-color: #000000;
+  font-family: "Lato";
+  font-weight: 300;
+  font-size: 16px;
+  color: #555;
+
+  -webkit-font-smoothing: antialised;
+  -webkit-overflow-scrolling: touch;
+
+  margin-top: 70px;
+
+}
+.border{
+  border-radius: 8%;
+}
+#centerT{
+  text-align: center;
+  font-family: "Raleway";
+  font-weight: 300;
+  color: rgb(187, 1, 194);
+}
+
+.heart {
+  fill:rgb(199, 0, 199);
+  position: relative;
+  width: 20px;
+  animation: pulse 1s ease infinite;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.3); }
+  100% { transform: scale(1); }
+}
+
+#Dog{
+  border-radius: 70%;
+  width: 10%;
+  height: auto;
+}
+
+.rainbow{
+  position: relative;
+  bottom: 40px;
+}
+.dawn{
+  position: relative;
+  top: 70px;
+  background-color: rgba(255, 255, 255, 0.479);
+  color:rgb(77, 3, 77);
+  font-size: 20px;
+  margin: 5px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Raleway";
+  font-weight: 300;
+  color: rgb(187, 1, 194);
+}
+
+#heart{
+  color:rgb(199, 0, 199);
+}
+
+p {
+  line-height: 28px;
+  margin-bottom: 25px;
+}
+
+.centered {
+  text-align: center;
+}
+
+a {
+  color: #ff0000
+}
+
+a:hover, a:focus {
+  color: #7b7b7b;
+  text-decoration: none;
+  outline: 0;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid rgb(0, 0, 0);
+  margin: 1em 0;
+  padding: 0;
+}
+
+.navbar {
+  font-weight: 800;
+  font-size: 14px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.navbar-inverse {
+  background: #000000;
+  border-color: #000000;
+}
+
+.navbar-inverse .navbar-nav > .active > a {
+  background-color: rgb(199, 0, 199);
+}
+
+.navbar-inverse .navbar-brand {
+  color: rgb(255, 255, 255);
+  font-weight: bolder;
+  font-size: 22px;
+  letter-spacing: 1px;
+}
+
+#headerwrap {
+  background: url(../img/p08.png) no-repeat center top;
+  background-size: auto;
+  margin-top: -10px;
+  padding-top: 20px;
+  text-align: center;
+  background-attachment: relative;
+  background-position: center center;
+  min-height: 500px;
+  width: 100%;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#headerwrap h1 {
+  margin-top: 450px;
+  color:rgb(199, 0, 199);
+  font-size: 40px;
+  font-weight: 300;
+  letter-spacing: 3px;
+}
+
+#headerwrap h2 {
+  color:rgba(165, 3, 165, 0.76);
+  font-size: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.w {
+  padding-top: 35px;
+}
+
+.w h4 {
+  font-size: 25px;
+}
+
+#dg {
+  background: #000000;
+  padding-top: 10px;
+  padding-bottom: 2px;
+  text-align: center;
+}
+
+#dg h4 {
+  font-size: 40px;
+}
+
+/* .wb {
+  padding-top: 35px;
+  margin-bottom:
+} */
+
+.wb h4 {
+  font-size: 35px;
+}
+
+#lg {
+  background: #ebebeb;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  text-align: center;
+}
+
+#lg h4 {
+  font-size: 45px;
+}
+
+#r {
+  background: #a200ff;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+#r h4 {
+  color: white;
+  font-size: 45px;
+}
+
+#r p {
+  color: white;
+}
+
+#f {
+  background: #000000;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+#f i {
+  color: #bdbdbd;
+  font-size: 30px;
+  padding: 20px;
+}
+
+#f i:hover {
+  color: #40E0D0
+}
